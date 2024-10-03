@@ -1,0 +1,14 @@
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\bin\Debug\net8.0\aula031024visibilidade.exe
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\bin\Debug\net8.0\aula031024visibilidade.deps.json
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\bin\Debug\net8.0\aula031024visibilidade.runtimeconfig.json
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\bin\Debug\net8.0\aula031024visibilidade.dll
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\bin\Debug\net8.0\aula031024visibilidade.pdb
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.AssemblyInfoInputs.cache
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.AssemblyInfo.cs
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.csproj.CoreCompileInputs.cache
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.dll
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\refint\aula031024visibilidade.dll
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.pdb
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\aula031024visibilidade.genruntimeconfig.cache
+C:\Users\aluno.cad\Desktop\tarefa\aula031024visibilidade\aula031024visibilidade\obj\Debug\net8.0\ref\aula031024visibilidade.dll
