@@ -1,0 +1,16 @@
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\bin\Debug\net8.0-windows\exercicioWindowsForms.exe
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\bin\Debug\net8.0-windows\exercicioWindowsForms.deps.json
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\bin\Debug\net8.0-windows\exercicioWindowsForms.runtimeconfig.json
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\bin\Debug\net8.0-windows\exercicioWindowsForms.dll
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\bin\Debug\net8.0-windows\exercicioWindowsForms.pdb
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.Form1.resources
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.csproj.GenerateResource.cache
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.AssemblyInfoInputs.cache
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.AssemblyInfo.cs
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.dll
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\refint\exercicioWindowsForms.dll
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.pdb
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\exercicioWindowsForms.genruntimeconfig.cache
+C:\Users\aluno.cad\Desktop\tarefa\exercicioWindowsForms\exercicioWindowsForms\obj\Debug\net8.0-windows\ref\exercicioWindowsForms.dll
