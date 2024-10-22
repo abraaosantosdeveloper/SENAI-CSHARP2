@@ -30,9 +30,10 @@
         {
             AddProduct = new Button();
             DeleteProduct = new Button();
-            ProdutosListBox = new ListBox();
             tableLayoutPanel1 = new TableLayoutPanel();
+            dataGridView1 = new DataGridView();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // AddProduct
@@ -58,15 +59,6 @@
             DeleteProduct.UseVisualStyleBackColor = true;
             DeleteProduct.Click += DeleteProduct_Click;
             // 
-            // ProdutosListBox
-            // 
-            ProdutosListBox.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            ProdutosListBox.FormattingEnabled = true;
-            ProdutosListBox.Location = new Point(12, 82);
-            ProdutosListBox.Name = "ProdutosListBox";
-            ProdutosListBox.Size = new Size(924, 424);
-            ProdutosListBox.TabIndex = 2;
-            // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
@@ -84,6 +76,15 @@
             tableLayoutPanel1.Size = new Size(928, 58);
             tableLayoutPanel1.TabIndex = 3;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(12, 79);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(928, 428);
+            dataGridView1.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -91,12 +92,13 @@
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(948, 519);
+            Controls.Add(dataGridView1);
             Controls.Add(tableLayoutPanel1);
-            Controls.Add(ProdutosListBox);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -105,7 +107,7 @@
 
         private Button AddProduct;
         private Button DeleteProduct;
-        private ListBox ProdutosListBox;
         private TableLayoutPanel tableLayoutPanel1;
+        private DataGridView dataGridView1;
     }
 }
