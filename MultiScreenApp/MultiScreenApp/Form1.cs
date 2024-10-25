@@ -13,12 +13,19 @@ namespace MultiScreenApp
         {
             InitializeComponent();
 
+            buttonProdutos.Image = Image.FromFile("images/produto.png");
+            buttonClientes.Image = Image.FromFile("images/cliente.png");
+            buttonFornecedores.Image = Image.FromFile("images/fornecedor.png");
+            buttonCompras.Image = Image.FromFile("images/compra.png");
+            buttonVendas.Image = Image.FromFile("images/venda.png");
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+
+        // Adicionar produto
 
         private void AddProduct_Click(object sender, EventArgs e)
         {
@@ -41,6 +48,7 @@ namespace MultiScreenApp
             }
         }
 
+        // Remover produto
         private void DeleteProduct_Click(object sender, EventArgs e)
         {
 
@@ -65,6 +73,7 @@ namespace MultiScreenApp
         {
 
         }
+        // Adicionar Fornecedor
 
         private void adicionarFornecedor_Click(object sender, EventArgs e)
         {
@@ -88,6 +97,61 @@ namespace MultiScreenApp
                 Fornecedores.Add(fornecedor);
             }
         }
+
+        // Remover fornecedor
+
+        private void apagarFornecedor_Click(object sender, EventArgs e)
+        {
+
+            if (dataGridView1.DataSource == Fornecedores)
+            {
+                if (dataGridView1.SelectedRows.Count > 0)
+                {
+                    Fornecedores.RemoveAt(dataGridView1.SelectedRows[0].Index);
+                }
+            }
+
+        }
+
+        // Adicionar Cliente
+        private void buttonNovoCliente_Click(object sender, EventArgs e)
+        {
+            NovoCliente adicionarCliente = new NovoCliente();
+            DialogResult dr = adicionarCliente.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                Cliente cliente = new Cliente();
+                if (Clientes.Count == 0) cliente.Id = 1;
+                else cliente.Id = Clientes.Max(x => x.Id) + 1;
+
+                cliente.Id = adicionarCliente.Id;
+                cliente.Nome = adicionarCliente.Nome;
+                cliente.Telefone = adicionarCliente.Telefone;
+                cliente.Email = adicionarCliente.Email;
+                cliente.Endereco = adicionarCliente.Endereco;
+
+
+                Clientes.Add(cliente);
+            }
+        }
+        // remover Cliente
+
+        private void buttonRemoverCliente_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.DataSource == Clientes)
+            {
+                if (dataGridView1.SelectedRows.Count > 0)
+                {
+                    Clientes.RemoveAt(dataGridView1.SelectedRows[0].Index);
+                }
+            }
+        }
+
+
+
+
+        // DataSources
+
         private void buttonProduto_Click(object sender, EventArgs e)
         {
             this.dataGridView1.DataSource = Produtos;
@@ -115,9 +179,10 @@ namespace MultiScreenApp
 
         }
 
-        private void buttonNovoFornecedor_Click(object sender, EventArgs e)
-        {
 
-        }
+
+
+
+
     }
 }
