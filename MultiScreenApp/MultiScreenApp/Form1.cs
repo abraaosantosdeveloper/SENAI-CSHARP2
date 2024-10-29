@@ -4,11 +4,11 @@ namespace MultiScreenApp
 {
     public partial class Form1 : Form
     {
-        private BindingList<Produto> Produtos = new BindingList<Produto>();
-        private BindingList<Cliente> Clientes = new BindingList<Cliente>();
-        private BindingList<Compra> Compras = new BindingList<Compra>();
-        private BindingList<Venda> Vendas = new BindingList<Venda>();
-        private BindingList<Fornecedor> Fornecedores = new BindingList<Fornecedor>();
+        public BindingList<Produto> Produtos = new BindingList<Produto>();
+        public BindingList<Cliente> Clientes = new BindingList<Cliente>();
+        public BindingList<Compra> Compras = new BindingList<Compra>();
+        public BindingList<Venda> Vendas = new BindingList<Venda>();
+        public BindingList<Fornecedor> Fornecedores = new BindingList<Fornecedor>();
         public Form1()
         {
             InitializeComponent();
@@ -116,7 +116,7 @@ namespace MultiScreenApp
         // Adicionar Cliente
         private void buttonNovoCliente_Click(object sender, EventArgs e)
         {
-            NovoCliente adicionarCliente = new NovoCliente();
+            NovaCompra adicionarCliente = new NovaCompra();
             DialogResult dr = adicionarCliente.ShowDialog();
             if (dr == DialogResult.OK)
             {
@@ -178,10 +178,6 @@ namespace MultiScreenApp
             this.dataGridView1.DataSource = Vendas;
 
         }
-
-
-
-
 
 
     }

@@ -7,7 +7,7 @@ using System.ComponentModel;
 
 namespace MultiScreenApp
 {
-    internal class Cliente
+    public class Cliente
     {
         [DisplayName("Id do cliente: ")] public int Id { get; set; }
         [DisplayName("Nome do cliente: ")] public string Nome { get; set; }

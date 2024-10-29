@@ -41,7 +41,7 @@ namespace MultiScreenApp
             apagarFornecedor = new Button();
             buttonNovoCliente = new Button();
             buttonRemoverCliente = new Button();
-            button9 = new Button();
+            buttonCriarCompra = new Button();
             button10 = new Button();
             button11 = new Button();
             button12 = new Button();
@@ -96,7 +96,7 @@ namespace MultiScreenApp
             tableLayoutPanel1.Controls.Add(apagarFornecedor, 1, 2);
             tableLayoutPanel1.Controls.Add(buttonNovoCliente, 2, 1);
             tableLayoutPanel1.Controls.Add(buttonRemoverCliente, 2, 2);
-            tableLayoutPanel1.Controls.Add(button9, 3, 1);
+            tableLayoutPanel1.Controls.Add(buttonCriarCompra, 3, 1);
             tableLayoutPanel1.Controls.Add(button10, 3, 2);
             tableLayoutPanel1.Controls.Add(button11, 4, 1);
             tableLayoutPanel1.Controls.Add(button12, 4, 2);
@@ -250,16 +250,16 @@ namespace MultiScreenApp
             buttonRemoverCliente.UseVisualStyleBackColor = true;
             buttonRemoverCliente.Click += buttonRemoverCliente_Click;
             // 
-            // button9
+            // buttonCriarCompra
             // 
-            button9.Dock = DockStyle.Fill;
-            button9.Location = new Point(505, 50);
-            button9.Margin = new Padding(3, 2, 3, 2);
-            button9.Name = "button9";
-            button9.Size = new Size(149, 22);
-            button9.TabIndex = 10;
-            button9.Text = "Nova";
-            button9.UseVisualStyleBackColor = true;
+            buttonCriarCompra.Dock = DockStyle.Fill;
+            buttonCriarCompra.Location = new Point(505, 50);
+            buttonCriarCompra.Margin = new Padding(3, 2, 3, 2);
+            buttonCriarCompra.Name = "buttonCriarCompra";
+            buttonCriarCompra.Size = new Size(149, 22);
+            buttonCriarCompra.TabIndex = 10;
+            buttonCriarCompra.Text = "Nova";
+            buttonCriarCompra.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
@@ -341,7 +341,7 @@ namespace MultiScreenApp
         private Button apagarFornecedor;
         private Button buttonNovoCliente;
         private Button buttonRemoverCliente;
-        private Button button9;
+        private Button buttonCriarCompra;
         private Button button10;
         private Button button11;
         private Button button12;
