@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno.cad\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj": {}
+    "C:\\Users\\abraa.DESKTOP-0E35LTB\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno.cad\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj": {
+    "C:\\Users\\abraa.DESKTOP-0E35LTB\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno.cad\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj",
+        "projectUniqueName": "C:\\Users\\abraa.DESKTOP-0E35LTB\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj",
         "projectName": "MultiScreenApp",
-        "projectPath": "C:\\Users\\aluno.cad\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj",
-        "packagesPath": "C:\\Users\\aluno.cad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno.cad\\source\\repos\\MultiScreenApp\\MultiScreenApp\\obj\\",
+        "projectPath": "C:\\Users\\abraa.DESKTOP-0E35LTB\\source\\repos\\MultiScreenApp\\MultiScreenApp\\MultiScreenApp.csproj",
+        "packagesPath": "C:\\Users\\abraa.DESKTOP-0E35LTB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abraa.DESKTOP-0E35LTB\\source\\repos\\MultiScreenApp\\MultiScreenApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aluno.cad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\abraa.DESKTOP-0E35LTB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

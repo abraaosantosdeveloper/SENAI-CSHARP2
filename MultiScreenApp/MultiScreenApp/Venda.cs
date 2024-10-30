@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MultiScreenApp
 {
-    public class Venda
+    internal class Venda
     {
         [DisplayName("Id: ")] public int Id { get; set; }
         [DisplayName("Id do produto: ")] public int IdProduto { get; set; }

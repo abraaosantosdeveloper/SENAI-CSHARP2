@@ -41,7 +41,7 @@ namespace MultiScreenApp
             apagarFornecedor = new Button();
             buttonNovoCliente = new Button();
             buttonRemoverCliente = new Button();
-            buttonCriarCompra = new Button();
+            button9 = new Button();
             button10 = new Button();
             button11 = new Button();
             button12 = new Button();
@@ -53,10 +53,9 @@ namespace MultiScreenApp
             // AddProduct
             // 
             AddProduct.Dock = DockStyle.Fill;
-            AddProduct.Location = new Point(3, 50);
-            AddProduct.Margin = new Padding(3, 2, 3, 2);
+            AddProduct.Location = new Point(3, 68);
             AddProduct.Name = "AddProduct";
-            AddProduct.Size = new Size(159, 22);
+            AddProduct.Size = new Size(182, 28);
             AddProduct.TabIndex = 0;
             AddProduct.Text = "Novo";
             AddProduct.UseVisualStyleBackColor = true;
@@ -66,10 +65,9 @@ namespace MultiScreenApp
             // 
             DeleteProduct.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             DeleteProduct.Dock = DockStyle.Fill;
-            DeleteProduct.Location = new Point(3, 76);
-            DeleteProduct.Margin = new Padding(3, 2, 3, 2);
+            DeleteProduct.Location = new Point(3, 102);
             DeleteProduct.Name = "DeleteProduct";
-            DeleteProduct.Size = new Size(159, 25);
+            DeleteProduct.Size = new Size(182, 32);
             DeleteProduct.TabIndex = 1;
             DeleteProduct.Text = "Apagar";
             DeleteProduct.UseVisualStyleBackColor = true;
@@ -82,9 +80,9 @@ namespace MultiScreenApp
             tableLayoutPanel1.ColumnCount = 5;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 48.96373F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 51.03627F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 165F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 155F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 166F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 189F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 177F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 191F));
             tableLayoutPanel1.Controls.Add(AddProduct, 0, 1);
             tableLayoutPanel1.Controls.Add(DeleteProduct, 0, 2);
             tableLayoutPanel1.Controls.Add(buttonProdutos, 0, 0);
@@ -96,18 +94,17 @@ namespace MultiScreenApp
             tableLayoutPanel1.Controls.Add(apagarFornecedor, 1, 2);
             tableLayoutPanel1.Controls.Add(buttonNovoCliente, 2, 1);
             tableLayoutPanel1.Controls.Add(buttonRemoverCliente, 2, 2);
-            tableLayoutPanel1.Controls.Add(buttonCriarCompra, 3, 1);
+            tableLayoutPanel1.Controls.Add(button9, 3, 1);
             tableLayoutPanel1.Controls.Add(button10, 3, 2);
             tableLayoutPanel1.Controls.Add(button11, 4, 1);
             tableLayoutPanel1.Controls.Add(button12, 4, 2);
-            tableLayoutPanel1.Location = new Point(10, 11);
-            tableLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
+            tableLayoutPanel1.Location = new Point(11, 15);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 3;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 65.0485458F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 34.951458F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 28F));
-            tableLayoutPanel1.Size = new Size(824, 103);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 37F));
+            tableLayoutPanel1.Size = new Size(942, 137);
             tableLayoutPanel1.TabIndex = 3;
             tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
@@ -120,11 +117,10 @@ namespace MultiScreenApp
             buttonProdutos.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonProdutos.ForeColor = Color.DarkGreen;
             buttonProdutos.ImageAlign = ContentAlignment.MiddleRight;
-            buttonProdutos.Location = new Point(3, 2);
-            buttonProdutos.Margin = new Padding(3, 2, 3, 2);
+            buttonProdutos.Location = new Point(3, 3);
             buttonProdutos.Name = "buttonProdutos";
             buttonProdutos.RightToLeft = RightToLeft.No;
-            buttonProdutos.Size = new Size(159, 44);
+            buttonProdutos.Size = new Size(182, 59);
             buttonProdutos.TabIndex = 0;
             buttonProdutos.Text = "Produtos";
             buttonProdutos.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -139,10 +135,9 @@ namespace MultiScreenApp
             buttonFornecedores.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonFornecedores.ForeColor = Color.DarkSlateGray;
             buttonFornecedores.ImageAlign = ContentAlignment.MiddleRight;
-            buttonFornecedores.Location = new Point(168, 2);
-            buttonFornecedores.Margin = new Padding(3, 2, 3, 2);
+            buttonFornecedores.Location = new Point(191, 3);
             buttonFornecedores.Name = "buttonFornecedores";
-            buttonFornecedores.Size = new Size(166, 44);
+            buttonFornecedores.Size = new Size(190, 59);
             buttonFornecedores.TabIndex = 2;
             buttonFornecedores.Text = "Fornecedores";
             buttonFornecedores.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -156,10 +151,9 @@ namespace MultiScreenApp
             buttonClientes.FlatStyle = FlatStyle.Flat;
             buttonClientes.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonClientes.ForeColor = Color.Olive;
-            buttonClientes.Location = new Point(340, 2);
-            buttonClientes.Margin = new Padding(3, 2, 3, 2);
+            buttonClientes.Location = new Point(387, 3);
             buttonClientes.Name = "buttonClientes";
-            buttonClientes.Size = new Size(159, 44);
+            buttonClientes.Size = new Size(183, 59);
             buttonClientes.TabIndex = 3;
             buttonClientes.Text = "Clientes";
             buttonClientes.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -174,10 +168,9 @@ namespace MultiScreenApp
             buttonCompras.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonCompras.ForeColor = Color.FromArgb(64, 64, 64);
             buttonCompras.ImageAlign = ContentAlignment.MiddleRight;
-            buttonCompras.Location = new Point(505, 2);
-            buttonCompras.Margin = new Padding(3, 2, 3, 2);
+            buttonCompras.Location = new Point(576, 3);
             buttonCompras.Name = "buttonCompras";
-            buttonCompras.Size = new Size(149, 44);
+            buttonCompras.Size = new Size(171, 59);
             buttonCompras.TabIndex = 4;
             buttonCompras.Text = "Compras";
             buttonCompras.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -192,10 +185,9 @@ namespace MultiScreenApp
             buttonVendas.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonVendas.ForeColor = Color.DarkMagenta;
             buttonVendas.ImageAlign = ContentAlignment.MiddleRight;
-            buttonVendas.Location = new Point(660, 2);
-            buttonVendas.Margin = new Padding(3, 2, 3, 2);
+            buttonVendas.Location = new Point(753, 3);
             buttonVendas.Name = "buttonVendas";
-            buttonVendas.Size = new Size(161, 44);
+            buttonVendas.Size = new Size(186, 59);
             buttonVendas.TabIndex = 5;
             buttonVendas.Text = "Vendas";
             buttonVendas.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -205,10 +197,9 @@ namespace MultiScreenApp
             // adicionarFornecedor
             // 
             adicionarFornecedor.Dock = DockStyle.Fill;
-            adicionarFornecedor.Location = new Point(168, 50);
-            adicionarFornecedor.Margin = new Padding(3, 2, 3, 2);
+            adicionarFornecedor.Location = new Point(191, 68);
             adicionarFornecedor.Name = "adicionarFornecedor";
-            adicionarFornecedor.Size = new Size(166, 22);
+            adicionarFornecedor.Size = new Size(190, 28);
             adicionarFornecedor.TabIndex = 6;
             adicionarFornecedor.Text = "Novo";
             adicionarFornecedor.UseVisualStyleBackColor = true;
@@ -217,10 +208,9 @@ namespace MultiScreenApp
             // apagarFornecedor
             // 
             apagarFornecedor.Dock = DockStyle.Fill;
-            apagarFornecedor.Location = new Point(168, 76);
-            apagarFornecedor.Margin = new Padding(3, 2, 3, 2);
+            apagarFornecedor.Location = new Point(191, 102);
             apagarFornecedor.Name = "apagarFornecedor";
-            apagarFornecedor.Size = new Size(166, 25);
+            apagarFornecedor.Size = new Size(190, 32);
             apagarFornecedor.TabIndex = 7;
             apagarFornecedor.Text = "Apagar";
             apagarFornecedor.UseVisualStyleBackColor = true;
@@ -229,10 +219,9 @@ namespace MultiScreenApp
             // buttonNovoCliente
             // 
             buttonNovoCliente.Dock = DockStyle.Fill;
-            buttonNovoCliente.Location = new Point(340, 50);
-            buttonNovoCliente.Margin = new Padding(3, 2, 3, 2);
+            buttonNovoCliente.Location = new Point(387, 68);
             buttonNovoCliente.Name = "buttonNovoCliente";
-            buttonNovoCliente.Size = new Size(159, 22);
+            buttonNovoCliente.Size = new Size(183, 28);
             buttonNovoCliente.TabIndex = 8;
             buttonNovoCliente.Text = "Novo";
             buttonNovoCliente.UseVisualStyleBackColor = true;
@@ -241,33 +230,31 @@ namespace MultiScreenApp
             // buttonRemoverCliente
             // 
             buttonRemoverCliente.Dock = DockStyle.Fill;
-            buttonRemoverCliente.Location = new Point(340, 76);
-            buttonRemoverCliente.Margin = new Padding(3, 2, 3, 2);
+            buttonRemoverCliente.Location = new Point(387, 102);
             buttonRemoverCliente.Name = "buttonRemoverCliente";
-            buttonRemoverCliente.Size = new Size(159, 25);
+            buttonRemoverCliente.Size = new Size(183, 32);
             buttonRemoverCliente.TabIndex = 9;
             buttonRemoverCliente.Text = "Apagar";
             buttonRemoverCliente.UseVisualStyleBackColor = true;
             buttonRemoverCliente.Click += buttonRemoverCliente_Click;
             // 
-            // buttonCriarCompra
+            // button9
             // 
-            buttonCriarCompra.Dock = DockStyle.Fill;
-            buttonCriarCompra.Location = new Point(505, 50);
-            buttonCriarCompra.Margin = new Padding(3, 2, 3, 2);
-            buttonCriarCompra.Name = "buttonCriarCompra";
-            buttonCriarCompra.Size = new Size(149, 22);
-            buttonCriarCompra.TabIndex = 10;
-            buttonCriarCompra.Text = "Nova";
-            buttonCriarCompra.UseVisualStyleBackColor = true;
+            button9.Dock = DockStyle.Fill;
+            button9.Location = new Point(576, 68);
+            button9.Name = "button9";
+            button9.Size = new Size(171, 28);
+            button9.TabIndex = 10;
+            button9.Text = "Nova";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
             button10.Dock = DockStyle.Fill;
-            button10.Location = new Point(505, 76);
-            button10.Margin = new Padding(3, 2, 3, 2);
+            button10.Location = new Point(576, 102);
             button10.Name = "button10";
-            button10.Size = new Size(149, 25);
+            button10.Size = new Size(171, 32);
             button10.TabIndex = 11;
             button10.Text = "Apagar";
             button10.UseVisualStyleBackColor = true;
@@ -275,10 +262,9 @@ namespace MultiScreenApp
             // button11
             // 
             button11.Dock = DockStyle.Fill;
-            button11.Location = new Point(660, 50);
-            button11.Margin = new Padding(3, 2, 3, 2);
+            button11.Location = new Point(753, 68);
             button11.Name = "button11";
-            button11.Size = new Size(161, 22);
+            button11.Size = new Size(186, 28);
             button11.TabIndex = 12;
             button11.Text = "Nova";
             button11.UseVisualStyleBackColor = true;
@@ -286,10 +272,9 @@ namespace MultiScreenApp
             // button12
             // 
             button12.Dock = DockStyle.Fill;
-            button12.Location = new Point(660, 76);
-            button12.Margin = new Padding(3, 2, 3, 2);
+            button12.Location = new Point(753, 102);
             button12.Name = "button12";
-            button12.Size = new Size(161, 25);
+            button12.Size = new Size(186, 32);
             button12.TabIndex = 13;
             button12.Text = "Apagar";
             button12.UseVisualStyleBackColor = true;
@@ -298,25 +283,23 @@ namespace MultiScreenApp
             // 
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(10, 118);
-            dataGridView1.Margin = new Padding(3, 2, 3, 2);
+            dataGridView1.Location = new Point(11, 157);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(824, 347);
+            dataGridView1.Size = new Size(942, 463);
             dataGridView1.TabIndex = 4;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(844, 481);
+            ClientSize = new Size(962, 631);
             Controls.Add(dataGridView1);
             Controls.Add(tableLayoutPanel1);
-            Margin = new Padding(3, 2, 3, 2);
-            MaximumSize = new Size(860, 520);
-            MinimumSize = new Size(860, 520);
+            MaximumSize = new Size(980, 678);
+            MinimumSize = new Size(980, 678);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -341,7 +324,7 @@ namespace MultiScreenApp
         private Button apagarFornecedor;
         private Button buttonNovoCliente;
         private Button buttonRemoverCliente;
-        private Button buttonCriarCompra;
+        private Button button9;
         private Button button10;
         private Button button11;
         private Button button12;

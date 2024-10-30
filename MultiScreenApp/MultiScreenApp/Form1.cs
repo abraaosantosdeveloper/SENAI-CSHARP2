@@ -4,11 +4,11 @@ namespace MultiScreenApp
 {
     public partial class Form1 : Form
     {
-        public BindingList<Produto> Produtos = new BindingList<Produto>();
-        public BindingList<Cliente> Clientes = new BindingList<Cliente>();
-        public BindingList<Compra> Compras = new BindingList<Compra>();
-        public BindingList<Venda> Vendas = new BindingList<Venda>();
-        public BindingList<Fornecedor> Fornecedores = new BindingList<Fornecedor>();
+        private BindingList<Produto> Produtos = new BindingList<Produto>();
+        private BindingList<Cliente> Clientes = new BindingList<Cliente>();
+        private BindingList<Compra> Compras = new BindingList<Compra>();
+        private BindingList<Venda> Vendas = new BindingList<Venda>();
+        private BindingList<Fornecedor> Fornecedores = new BindingList<Fornecedor>();
         public Form1()
         {
             InitializeComponent();
@@ -116,7 +116,7 @@ namespace MultiScreenApp
         // Adicionar Cliente
         private void buttonNovoCliente_Click(object sender, EventArgs e)
         {
-            NovaCompra adicionarCliente = new NovaCompra();
+            NovoCliente adicionarCliente = new NovoCliente();
             DialogResult dr = adicionarCliente.ShowDialog();
             if (dr == DialogResult.OK)
             {
@@ -179,6 +179,23 @@ namespace MultiScreenApp
 
         }
 
-
+        private void button9_Click(object sender, EventArgs e)
+        {
+            
+            if(Fornecedores.Count == 0)
+            {
+                MessageBox.Show("Cadastre um fornecedor para efetuar uma compra.");
+                return;
+            }
+            else if (Produtos.Count == 0) {
+                MessageBox.Show("Cadastre um produto para efetuar uma compra.");
+                return;
+            }
+            else
+            {
+                FormCompra novaCompra = new FormCompra();
+                DialogResult dResultCompra = novaCompra.ShowDialog();
+            }
+        }
     }
 }

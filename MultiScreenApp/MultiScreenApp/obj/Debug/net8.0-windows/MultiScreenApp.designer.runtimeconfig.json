@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\aluno.cad\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\aluno.cad\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\abraa.DESKTOP-0E35LTB\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\abraa.DESKTOP-0E35LTB\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
